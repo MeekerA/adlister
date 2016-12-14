@@ -17,7 +17,9 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
+<div class="container">
 <%@include file="partials/navbar.jsp"%>
+
 <h1>Please Login</h1>
 
 <form method="POST" action="/login.jsp">
@@ -28,8 +30,9 @@
     <label for="password">Password :</label>
     <input type="password" name="password" id="password">
     <br>
-    <button type="submit">Submit</button>
+    <button type="submit" class="btn">Submit</button>
 </form>
+</div>
 
 </body>
 </html>
